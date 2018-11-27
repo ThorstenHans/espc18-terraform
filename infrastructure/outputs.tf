@@ -3,6 +3,6 @@ output "resource_group_id" {
 }
 
 
-output "webapp_fqn" {
+output "webapp_default_site_hostname" {
   value = "${azurerm_app_service.webapp.default_site_hostname}"
 }

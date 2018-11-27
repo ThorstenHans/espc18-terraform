@@ -9,14 +9,15 @@ variable "custom_tags" {
   default     = {}
 }
 
-variable "webapp_sku" {
+variable "webapp_sku_size" {
   type        = "string"
-  description = "WebApp's SKU"
+  description = "WebApp's SKU size"
 
   default = "S2"
 }
 
 variable "deploy_disk" {
-  type    = "string"
-  default = false
+  type        = "string"
+  description = "specifies if the Azure Disk should be deployed or not"
+  default     = false
 }
