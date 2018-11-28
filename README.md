@@ -2,6 +2,10 @@
 
 In order to use the terraform script, ensure you've installed [Terraform](https://terraform.io) on your machine.
 
+## Slides
+
+Slides from the talk are located at https://thns.io/2KFhSgD
+
 ## Azure Authentication
 
 You can authenticate either by using Azure CLI (`az login`) or you can specify a service principal id and the corresponding password as environment variables
